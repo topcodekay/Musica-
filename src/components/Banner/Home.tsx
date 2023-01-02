@@ -4,7 +4,7 @@ import { Box, Image } from '@chakra-ui/react'
 export default function Home() {
   return (
     <>
-    <Box>
+    <Box placeItems={'center'}>
         <Image src='/img/home.png' alt=''/>
     </Box>
     </>

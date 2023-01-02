@@ -3,9 +3,9 @@ import React from 'react'
 import classes from './Chart.module.scss'
 
 export default function Oldies () {
-  const songText = 'Golden age of 80s'
-  const artist = 'Sean Swadder'
-  const songsDuration = '2:34:45'
+  const songText = 'Reggae "n" Blues'
+  const artist = 'DJ YK Mule'
+  const songsDuration = '1:02:42'
   return (
     <>
     <Box className={classes.musicButton}>
@@ -14,7 +14,7 @@ export default function Oldies () {
             <Box h={96}>
           <Flex alignItems={'center'}>
             <Box h={30} p={10}>
-              <Image src='/img/golden.png' alt=''/>
+              <Image src='/img/reggae.png' alt=''/>
             </Box>
             <Flex>
             <Box>

@@ -1,6 +1,7 @@
 .musicButton{
     width: 387px;
-    height: 96px;
+    // height: 96px;
+    // padding: 3px;
     background: #1A1E1F;
     border-radius: 20px;
     color: #fff;
@@ -9,4 +10,8 @@
 .singer{
     // height: 20px;
     color: rgba(255, 255, 255, 0.5);
+}
+
+.likeSongs{
+    border-radius: 40px;
 }

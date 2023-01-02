@@ -18,7 +18,7 @@ export default function Banner() {
                     {playlist}
                 </Text>
                 <Box p={10}>
-                <Heading  as={'h2'} fontSize={35} color='#fff' fontFamily={'Quicksand'} fontWeight='700' w={167} h={42}>
+                <Heading  as={'h2'} fontSize={35} color='#fff' fontFamily={'Quicksand'} fontWeight='700' w={167} h={14}>
                     {hits}
                 </Heading>
                 <Text fontSize={16} color='#fff' w={276} h={51}>

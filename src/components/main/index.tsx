@@ -11,6 +11,7 @@ import Profile from '../Banner/Profile';
 import Logout from '../Banner/Logout';
 import Banner from '../Banner/Banner';
 import Oldies from '../Chart/Oldies';
+import Chart from '../Chart/Chart';
 
 
 export const HeaderMain = () => {
@@ -46,12 +47,12 @@ export const HeaderMain = () => {
               </Box>
             </Col>
             <Col lg={7}>
-              <Box pt={15}>
+              <Box>
             <Banner/>
             </Box>
             </Col>
             <Col lg={4}>
-              <Oldies/>
+              <Chart/>
             </Col>
           </Row>
             </Col>
