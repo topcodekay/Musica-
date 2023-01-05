@@ -13,9 +13,11 @@ function Chart() {
         <Box>
             <Text fontSize={24} color={'#fff'}>Top Charts</Text>
             <Box>
-                <Oldies/>
-                <Reggae/>
+                <Box p={5}><Oldies/></Box>
+                
+                <Box p={5}> <Reggae/> </Box>
                 <Tunes/>
+                <Box p={5}>  </Box>
             </Box>
         </Box>
     </Box>
