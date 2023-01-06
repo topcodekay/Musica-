@@ -55,6 +55,11 @@ export const HeaderMain = () => {
               <Chart/>
             </Col>
           </Row>
+          <Row>
+            <Col>
+            
+            </Col>
+          </Row>
             </Col>
       </Row>
     </>
