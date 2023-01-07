@@ -57,7 +57,7 @@ export const HeaderMain = () => {
           </Row>
           <Row>
             <Col>
-            
+            <Box></Box>
             </Col>
           </Row>
             </Col>
