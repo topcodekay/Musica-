@@ -46,6 +46,7 @@ export const HeaderMain = () => {
               </Box>
               </Box>
             </Col>
+            {/* <Box className={classes.bannerContainer}> */}
             <Col lg={7}>
               <Box>
             <Banner/>
@@ -54,11 +55,7 @@ export const HeaderMain = () => {
             <Col lg={4}>
               <Chart/>
             </Col>
-          </Row>
-          <Row>
-            <Col>
-            <Box></Box>
-            </Col>
+            {/* </Box> */}
           </Row>
             </Col>
       </Row>
