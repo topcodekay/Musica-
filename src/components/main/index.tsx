@@ -39,7 +39,7 @@ export const HeaderMain = () => {
                 <Box p={10}><Video/></Box>
               </Box>
               </Box>
-              <Box pt={20}>
+              <Box pt={10}>
               <Box  className={classes.icon}>
                 <Box p={10}> <Profile/> </Box>
                 <Box p={10}> <Logout/> </Box>
@@ -47,12 +47,10 @@ export const HeaderMain = () => {
               </Box>
             </Col>
             {/* <Box className={classes.bannerContainer}> */}
-            <Col lg={7}>
-              <Box>
+            <Col xs={2} lg={7}>
             <Banner/>
-            </Box>
             </Col>
-            <Col lg={4}>
+            <Col xs={1} lg={4}>
               <Chart/>
             </Col>
             {/* </Box> */}

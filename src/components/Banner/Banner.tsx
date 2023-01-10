@@ -4,7 +4,7 @@ import Likes from './likes'
 import classes from './Banner.module.scss'
 
 export default function Banner() {
-    let playlist = 'curated playlist'
+    let playlist = 'Curated playlist'
     let hits = 'R & B Hits'
     let songsList = 'All mine, Lie again, Petty call me everyday, Out of time, No love, Bad Habit, and so much more.'
   return (
