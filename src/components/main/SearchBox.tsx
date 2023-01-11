@@ -1,7 +1,6 @@
 import { Input, InputGroup, InputLeftElement } from "@chakra-ui/react";
 import classes from "./Header.module.scss";
 import { FiSearch } from "react-icons/fi";
-import { ClassNames } from "@emotion/react";
 
 
 export default function Search() {

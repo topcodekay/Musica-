@@ -30,8 +30,8 @@ export default function Banner() {
                 </Box>
             </Flex>
             </Box>
-            <Box className={classes.img} overflow={'hidden'} style={{height: '100%', width: '100%'}}>
-            <Box className={classes.imgStyle}>
+            <Box overflow={'hidden'} h={'100%'}>
+            <Box ml={-22}>
                 <Image src='/img/vector.png' alt=''/>
             </Box>
             </Box>

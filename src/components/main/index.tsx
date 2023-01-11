@@ -18,7 +18,7 @@ export const HeaderMain = () => {
   return (
     <>
     <Row className={classes.header}>
-        <Col xs={12}>
+        <Col sm={12}>
           <Row>
             <Col lg={1}>
               <Box pb={10}>
@@ -46,14 +46,12 @@ export const HeaderMain = () => {
               </Box>
               </Box>
             </Col>
-            {/* <Box className={classes.bannerContainer}> */}
-            <Col xs={2} lg={7}>
+            <Col xs={4} lg={7}>
             <Banner/>
             </Col>
             <Col xs={1} lg={4}>
               <Chart/>
             </Col>
-            {/* </Box> */}
           </Row>
             </Col>
       </Row>
