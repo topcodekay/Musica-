@@ -20,12 +20,12 @@ export const HeaderMain = () => {
     <Row className={classes.header}>
         <Col sm={12}>
           <Row>
-            <Col lg={1}>
+            <Col xs={1} lg={1}>
               <Box pb={10}>
                 <Image src="/img/logo.png" alt="Musica Logo" mt={2}/>
                 </Box>
             </Col>
-            <Col lg={11}>
+            <Col xs={11} lg={11}>
               <SearchBox />
             </Col>
           </Row>
@@ -46,12 +46,15 @@ export const HeaderMain = () => {
               </Box>
               </Box>
             </Col>
-            <Col xs={4} lg={7}>
+            <Col xs={10} md={8} lg={7}>
             <Banner/>
             </Col>
-            <Col xs={1} lg={4}>
+            <Col xs={2} md={4} lg={4}>
               <Chart/>
             </Col>
+          </Row>
+          <Row>
+            <Col></Col>
           </Row>
             </Col>
       </Row>
