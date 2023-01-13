@@ -12,17 +12,18 @@ import Logout from '../Banner/Logout';
 import Banner from '../Banner/Banner';
 import Oldies from '../Chart/Oldies';
 import Chart from '../Chart/Chart';
+import NewRelease from '../NewRelease';
 
 
 export const HeaderMain = () => {
   return (
     <>
     <Row className={classes.header}>
-        <Col sm={12}>
+        <Col sm={12} lg={12}>
           <Row>
             <Col xs={1} lg={1}>
-              <Box pb={10}>
-                <Image src="/img/logo.png" alt="Musica Logo" mt={2}/>
+              <Box >
+                <Image src="/img/logo.png" alt="Musica" />
                 </Box>
             </Col>
             <Col xs={11} lg={11}>
@@ -32,7 +33,7 @@ export const HeaderMain = () => {
           <Row>  
             <Col lg={1}>
             <Box pt={10}>
-              <Box  className={classes.icons}>
+              <Box className={classes.icons}>
                 <Box marginLeft={-8} p={10}><Home/></Box>
                 <Box p={10}><Playlist/></Box>
                 <Box p={10}><Radio/></Box>
@@ -54,7 +55,10 @@ export const HeaderMain = () => {
             </Col>
           </Row>
           <Row>
-            <Col></Col>
+            <Col lg={1}></Col>
+            <Col lg={11}>
+              <NewRelease/>
+            </Col>
           </Row>
             </Col>
       </Row>

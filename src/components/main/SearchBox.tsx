@@ -10,7 +10,7 @@ export default function Search() {
        style={{color: 'gray'}} />
       <Input
         placeholder="Search artists"
-        p={10}
+        
         
         style={{ backgroundColor: "#1D2123", border: 'none', color:'#fff', width:'1122px' }}
       />
