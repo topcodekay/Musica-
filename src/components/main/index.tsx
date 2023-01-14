@@ -13,6 +13,7 @@ import Banner from '../Banner/Banner';
 import Oldies from '../Chart/Oldies';
 import Chart from '../Chart/Chart';
 import NewRelease from '../NewRelease';
+import Player from '../Player';
 
 
 export const HeaderMain = () => {
@@ -55,13 +56,20 @@ export const HeaderMain = () => {
             </Col>
           </Row>
           <Row>
-            <Col lg={1}></Col>
-            <Col lg={11}>
+            {/* <Col lg={1}></Col> */}
+            <Col lg={11} lgOffset={1}>
+              <NewRelease/>
+            </Col>
+            <Col lg={11} lgOffset={1}>
+              <NewRelease/>
+            </Col>
+            <Col lg={11} lgOffset={1}>
               <NewRelease/>
             </Col>
           </Row>
             </Col>
       </Row>
+      <Player/>
     </>
   )
 }
