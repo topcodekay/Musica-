@@ -12,16 +12,16 @@ export default function Banner() {
         <Box className={classes.container}>
             <Box className={classes.banner}>
                 <Flex>
-                <Box>
+                <Box p={20}>
             <Flex flexDirection={'column'}>
-                <Text fontSize={14} color='#fff' p={20}>
+                <Text fontSize={14} color='#fff' p={10}>
                     {playlist}
                 </Text>
                 <Box p={10}>
                 <Heading  as={'h2'} fontSize={35} color='#fff' fontFamily={'Quicksand'} fontWeight='700' w={167} h={14}>
                     {hits}
                 </Heading>
-                <Text fontSize={16} color='#fff' w={276} h={51}>
+                <Text fontSize={16} color='#fff' w={276} h={51} zIndex={10}>
                     {songsList}
                 </Text>
                 </Box>
@@ -30,9 +30,9 @@ export default function Banner() {
                 </Box>
             </Flex>
             </Box>
-            <Box overflow={'hidden'} h={'100%'}>
-            <Box ml={-22}>
-                <Image src='/img/vector.png' alt=''/>
+            <Box>
+            <Box className={classes.imgStyle}>
+                <Image src='/img/vector.png' alt='' w={'100%'} h={'373px'}/>
             </Box>
             </Box>
             </Flex>

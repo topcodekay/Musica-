@@ -7,17 +7,18 @@
 }
 
 .conatiner{
-    width: 100%;
-    // height: 100%;
+    width: 686px;
+    height: 353px;
     // margin: 22px;
-    // padding: 47px;
+    padding: 27px;
 }
 
 .banner{
     width: 100%;
-    height: 363px;
+    height: 353px;
     background-color: #609EAF;
     border-radius: 40px;
+    // object-fit: cover;
     overflow: hidden;
 }
 
@@ -29,6 +30,6 @@
 // }
 
 // .imgStyle{
-//     // border: 0.197078px solid #FFFFFF;
-//     // transform: rotate(3deg);
+//     border: 0.197078px solid #FFFFFF;
+//     // transform: rotate(-44.5deg);
 // }
