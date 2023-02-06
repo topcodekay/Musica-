@@ -72,17 +72,12 @@ export const HeaderMain = () => {
             <Banner/>
             </Col>
             <Col xs={5} sm={6}  lg={4}>
-            <Oldies image='golden.png' title={charts[1].title} artist={charts[1].artist} duration={charts[1].duration}/>
-            </Col>
-          </Row>
-          <Row>
-            <Col lg={11} lgOffset={1}>
-            <NewRelease/>
+              <Chart/>
+            {/* <Oldies image='golden.png' title={charts[1].title} artist={charts[1].artist} duration={charts[1].duration}/> */}
             </Col>
           </Row>
             </Col>
       </Row>
-            <Player/>
     </>
   )
 }

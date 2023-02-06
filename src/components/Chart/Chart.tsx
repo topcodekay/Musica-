@@ -13,7 +13,7 @@ function Chart() {
         <Box fontSize={24} color={'#fff'}>Top Charts</Box>
         <Box className={classes.charts}>
             <Box display={'flex'} flexDirection={'column'} gap={10}>
-                {/* <Box><Oldies/></Box> */}
+                <Box><Oldies/></Box>
                 <Box> <Reggae/> </Box>
                 <Box> <Tunes/> </Box>
             </Box>
