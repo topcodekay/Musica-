@@ -1,23 +1,28 @@
-import { Box, Text } from '@chakra-ui/react'
 import React from 'react'
-import Oldies from './Oldies'
-import Reggae from './Reggae'
-import Tunes from './Tunes'
+import { Box, Text, Image, Heading, Flex } from '@chakra-ui/react'
 import classes from './Chart.module.scss'
+import fave from '/img/likessong.png'
 
-function Chart() {
+function Chart({img, title, artist, duration} : any) {
 
   return (
     <>
-    <Box display={'flex'} flexDirection={'column'} gap={10}>
-        <Box fontSize={24} color={'#fff'}>Top Charts</Box>
-        <Box className={classes.charts}>
-            <Box display={'flex'} flexDirection={'column'} gap={10}>
-                <Box><Oldies/></Box>
-                <Box> <Reggae/> </Box>
-                <Box> <Tunes/> </Box>
+    <Box className={classes.musicButton}>
+        <Flex>
+            <Box p={5}>
+                <Image src={img} alt='music image' w={'63px'} h={'63px'} borderRadius={'10px'}/>
             </Box>
-        </Box>
+            <Flex justifyContent={'space-between'} alignItems={'center'}>
+              <article>
+                <Heading as={'h5'} w='144px' h='20px' color={'#fff'} fontSize='sm'>{title}</Heading>
+                <Text fontSize={'xs'}>{artist}</Text>
+                <Text fontSize={'xs'}>{duration}</Text>
+              </article>
+              <Box>
+                <Image src={fave} alt='heart'/>
+              </Box>
+            </Flex>
+        </Flex>
     </Box>
     </>
   )

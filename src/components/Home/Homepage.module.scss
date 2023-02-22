@@ -6,20 +6,21 @@
     color: #fff;
 }
 
-.conatiner{
-    width: 686px;
-    height: 353px;
-    // margin: 22px;
-    padding: 27px;
-}
+// .conatiner{
+//     width: 686px;
+//     height: 373px;
+//     // margin: 22px;
+//     padding: 27px;
+// }
 
 .banner{
-    width: 100%;
-    height: 353px;
+    width: fit-content ;
+    height: 350px;
     background-color: #609EAF;
     border-radius: 40px;
     // object-fit: cover;
     overflow: hidden;
+    // padding-bottom: 20px;
 }
 
 // .playlist{

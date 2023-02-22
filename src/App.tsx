@@ -1,17 +1,22 @@
 import { Box } from '@chakra-ui/react'
-import Chart from './components/Chart/Chart'
-import Oldies from './components/Chart/Oldies';
-import { HeaderMain } from './components/main'
-import NewRelease from './components/NewRelease';
-import Player from './components/Player';
+import Header from './components/Header/Header'
+import HomePage from './components/Home/HomePage'
+import SideBar from './components/SideBar/SideBar'
+import "../styles/globals.scss"
+import classes from './components/Header/Header.module.scss'
 
 function App() {
 
   return (
-    <Box>
-      <HeaderMain/>
-      <NewRelease/>
-      <Player/>
+    <Box className={classes.header}>
+      {/* <HeaderMain/> */}
+      {/* <NewRelease/> */}
+      {/* <Player/> */}
+      <Header/>
+      <main className='d-flex flex'>
+      <SideBar/>
+      <HomePage/>
+      </main>
     </Box>
   )
 }

@@ -5,14 +5,13 @@ import { FiSearch } from "react-icons/fi";
 
 export default function Search() {
   return (
-<InputGroup  className={classes.input} ml={5}>
+<InputGroup ml={2.5}>
       <InputLeftElement pointerEvents="none" children={<FiSearch />}
-       style={{color: 'gray'}} />
+       style={{color: 'gray',height: '63px'}} />
       <Input
         placeholder="Search artists"
-        
-        
-        style={{ backgroundColor: "#1D2123", border: 'none', color:'#fff', width:'1122px' }}
+        focusBorderColor="#1D2123"
+        style={{ backgroundColor: "#1D2123", border: 'none', color:'#fff', width:'1200px', height: '63px' }}
       />
     </InputGroup>
   );

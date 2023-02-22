@@ -1,12 +1,12 @@
 import React from 'react'
 import { Box, Flex, Image, Link, Text } from '@chakra-ui/react'
-import classes from "./Banner.module.scss"
+import classes from "./Homepage.module.scss"
 
 export default function Likes() {
     let songLikes = '33K Likes'
   return (
     <> 
-    <Box pb={10}>
+    <Box pb={15}>
         <Flex justifyContent='spaceBetween'  alignItems='center' gap='8' minWidth='100%'>
     <Box>
           <Link href={'#'}>
@@ -21,12 +21,12 @@ export default function Likes() {
         </a>
         </Link>
       </Box>
-      <Box pr={10} pl={10}>
+      <Box>
         <Image src='/img/love.png' alt=''/>
       </Box>
 
       <Box>
-        <Text fontSize='xs' pr={-1} className={classes.text}>{songLikes}</Text>
+        <Text fontSize='xs' className={classes.text}>{songLikes}</Text>
       </Box>
       </Flex>
     </Box>
